@@ -2,29 +2,22 @@
 
  <!--StartFragment-->
 
+Authors(@slack): Nourhan Mahmoud (@NourhanM1)
 Unsupervised Learning in Cancer:
-
-Authors(@slack):Nourhan Mahmoud (@NourhanM1)
-
-Unsupervised learning is a machine learning technique that uses unlabeled data to identify patterns and structures. It is particularly useful in cancer research for identifying cancer subtypes, which are distinct molecular characteristics of related diseases. This helps in personalized medicine, as each subtype has different prognoses and treatment responses. In breast cancer research, unsupervised learning classifies tumors into molecular subtypes, such as Luminal A, Luminal B, HER2-enriched, and Basal-like. It also helps in identifying biomarkers, which can distinguish cancerous from non-cancerous tissues and predict patient outcomes. This helps in early detection and prognosis, enhancing cancer understanding and patient care.
-
-Breast cancer subtype classification is crucial for personalized treatment due to the heterogeneity of tumors. Immunohistochemistry (IHC) has been used for surrogating gene expression profiling, but early identification is limited by false negatives and invasiveness. Rapid advances in radio genomics have led to the increased use of imaging in genotype research, including magnetic resonance imaging (MRI) as potential biomarkers for genotypic association studies and prediction models for neoadjuvant chemotherapy. Deep learning algorithms are being developed to provide second opinions for precision medicine, but their performance is often dependent on training datasets. Transfer learning, which allows for the acquisition of prior knowledge or features from specific source domains, is being explored for its potential in breast cancer subtype classification from dynamic contrast-enhanced MRI. 
-
-This study proposes two unsupervised deep representation learning strategies, M\_EL and B\_EL, for identifying breast cancer luminal and non-luminal subtypes using malignant and benign breast lesion datasets. The goal is to preserve as many reconstruction features as possible using encoders, but maximizing the benefit value of redundant reconstruction features can be challenging. The proposed model can retain important information during unsupervised pre-training by maximizing the mean square error (MI) and constraining it from a prior distribution instead of mean square error or cross entropy. The experimental results show that M\_EL and B\_EL are superior to CLSTM when training data from scratch and take full advantage of dynamic information across DCE-MRI post-contrast images. The cross-domain capability between similar domains also represents the generalization capability of the model. The study emphasizes the importance of rational model design and similarity shared by source and target domains when improving transfer learning performance. Future research can achieve the same model generalization ability and considerable effect of transfer learning as a small-scale malignant source domain.
-
-**Conclusion**
-
-Unsupervised learning is a machine learning method that is applied in cancer research to determine subtypes of cancer, which are different molecular traits shared by cancers that are related. Personalized medicine requires this because the prognoses and treatment responses of each subtype vary. Unsupervised learning is used in breast cancer research to uncover biomarkers for early diagnosis and prognosis and to classify tumors into molecular subtypes such as Luminal A, Luminal B, HER2-enriched, and Basal-like. The use of imaging, such as magnetic resonance imaging (MRI), as possible biomarkers has been made possible by developments in radiogenomics. This work uses datasets of malignant and benign breast lesions to propose two unsupervised deep representation learning algorithms, M\_EL and B\_EL, for the identification of luminal and non-luminal subtypes of breast cancer.
-
-**References**
-
-[Ro Xiao D, Qin C, Yu H, Huang Y, Liu C. Unsupervised deep representation learning for motor fault diagnosis by mutual information maximization. _J Intell Manuf_ 2021; **32**(2): 377-391.ng Sun PhD](https://onlinelibrary.wiley.com/authored-by/Sun/Rong)
-
-Hjelm RD, Fedorov A, Lavoie-Marchildon S, et al. Learning deep representations by mutual information estimation and maximization. 2018; arXiv preprint arXiv:1808.06670
-
- ****
-
-[**https://doi.org/10.1002/jmri.27955**](https://doi.org/10.1002/jmri.27955)
+Introduction to unsupervised Learning in Cancer
+Unsupervised learning is a machine learning approach that uses data without labels to find patterns and structures. This method has value in cancer research to identify cancer subtypes, which are distinct molecular features of related diseases. This aids personalized medicine, as each subtype has different outcomes and responses to treatment. In breast cancer studies, unsupervised learning groups tumors into molecular subtypes. It also helps to find biomarkers, which can tell cancerous tissues from non-cancerous ones and predict patient outcomes. 
+Importance of Breast Cancer Subtype Classification
+Breast cancer subtype classification plays a key role in tailoring treatment because tumors differ. Doctors have used immunohistochemistry (IHC) to stand in for gene expression profiling, but early detection has limits due to false negatives and its invasive nature. Recent breakthroughs in radiogenomics have led to more use of imaging in genetic research. 
+Researchers are developing deep learning algorithms to give quick insights for precision medicine, but how well they work often depends on the data used to train them. Scientists are looking into transfer learning, which allows the use of prior knowledge or features from specific source areas, to classify breast cancer subtypes from dynamic contrast-enhanced MRI.
+Proposed Methodologies
+This study suggests two new ways to learn about breast cancer without supervision. These methods called Malignant Ensemble Learning (M_EL) and Benign Ensemble Learning (B_EL), help tell apart different types of breast cancer. They do this by looking at datasets of both dangerous and harmless breast problems. The main goal is to keep as many important features as possible using encoders. The new model can hold onto key information during training without supervision. It does this by making the mean square error (MI) as big as possible and keeping it within a set range instead of using mean square error or cross entropy.
+Tests show that M_EL and B_EL work better than CLSTM when starting from scratch. They also make good use of the changing information in DCE-MRI pictures taken after contrast is given. The model can also work well between similar areas showing it can be used more.
+Conclusion
+Unsupervised learning is a machine learning strategy that is connected in cancer inquire about to decide subtypes of cancer, which are diverse atomic characteristics shared by cancers that are related. Unsupervised learning is utilized in breast cancer investigate to reveal biomarkers for early determination and forecast and to classify tumors into atomic subtypes.
+References
+1.	Xiao, D., Qin, C., Yu, H., Huang, Y., & Liu, C. (2021). Unsupervised deep representation learning for motor fault diagnosis by mutual information maximization. Journal of Intelligent Manufacturing, 32, 377-391.
+2.	Hjelm, R. D., Fedorov, A., Lavoie-Marchildon, S., Grewal, K., Bachman, P., Trischler, A., & Bengio, Y. (2018). Learning deep representations by mutual information estimation and maximization. arXiv preprint arXiv:1808.06670.
+3.	Szegedy, C., Vanhoucke, V., Ioffe, S., Shlens, J., & Wojna, Z. (2016). Rethinking the inception architecture for computer vision. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 2818-2826).
 
 \
 
