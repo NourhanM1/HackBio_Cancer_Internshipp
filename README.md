@@ -22,6 +22,12 @@ While this field is still evolving, the potential benefits are significant. Futu
 
 <!--[if !supportLists]-->1.     <!--[endif]-->Erkan Bostanci, Engin Koçak, Unal, M., Mehmet Serdar Guzel, Koray Acici and Tunc Asuroglu (2023). Machine Learning Analysis of RNA-seq Data for Diagnostic and Prognostic Prediction of Colon Cancer. Sensors, 23(6), pp.3080–3080.
 
-** doi:https\://doi.org/10.3390/s23063080.**
+https\://doi.org/10.3390/s23063080
 
-<!--[if !supportLists]-->2.     <!--[endif]-->Li J, Varghese RS, Ressom HW. RNA-Seq Data Analysis. Methods Mol Biol. 2024;2822
+<!--[if !supportLists]-->2.     <!--[endif]--> Larrañaga, P., Calvo, B., Santana, R., Bielza, C., Galdiano, J., Inza, I., Lozano, J.A., Armañanzas, R., Santafé, G., Pérez, A. and Robles, V. (2006). Machine learning in bioinformatics. Briefings in Bioinformatics, 7(1), pp.86–112. 
+
+https\://doi.org/10.1093/bib/bbk007
+
+<!--[if !supportLists]-->3.     <!--[endif]-->Li J, Varghese RS, Ressom HW. RNA-Seq Data Analysis. Methods Mol Biol. 2024;2822:263-2&#x20;
+
+https\://doi.org/10.1007/978-1-0716-3918-4\_1890. 
